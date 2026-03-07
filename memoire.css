@@ -61,10 +61,19 @@ h2 {
 }
 
 .card {
-  border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  background: #fafafa;
+  background: #1f4e79;
+  box-shadow: 0 2px 8px rgba(31, 78, 121, 0.1);
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+.card:hover {
+  box-shadow: 0 6px 16px rgba(31, 78, 121, 0.2);
+  transform: translateY(-4px);
+  border-color: #1f4e79;
+  background: #ffffff;
+  color: #1f4e79;
 }
 
 .card a {
@@ -78,6 +87,7 @@ h2 {
   margin-top: 15px;
   border-radius: 8px;
 }
+
 
 footer {
   background: #1f4e79;
