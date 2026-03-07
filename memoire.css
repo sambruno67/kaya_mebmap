@@ -13,9 +13,20 @@ header {
   padding: 30px 20px;
 }
 
+header:hover {
+  background: #1e4870;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
 nav {
   background: #163a5c;
   padding: 10px 0;
+}
+
+nav:hover {
+  background: #ffffff;
+  transition: background 0.3s ease;
+  color: #1f4e79;
 }
 
 nav ul {
@@ -32,9 +43,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 119, 255);
   text-decoration: none;
   font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #1f4e79;
+  transition: color 0.3s ease;
 }
 
 main {
