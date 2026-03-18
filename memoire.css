@@ -7,27 +7,23 @@ body {
 }
 
 header {
-  background: #1f4e79;
+  background: #127fb1;
   color: white;
   text-align: center;
   padding: 30px 20px;
 }
 
 header:hover {
-  background: #1e4870;
+  background: #3ec2ff;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav {
-  background: #163a5c;
+  background: #3ec2ff;
   padding: 10px 0;
 }
 
-nav:hover {
-  background: #ffffff;
-  transition: background 0.3s ease;
-  color: #1f4e79;
-}
+
 
 nav ul {
   display: flex;
@@ -49,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #1f4e79;
+  color: #127fb1;
   transition: color 0.3s ease;
 }
 
@@ -67,7 +63,7 @@ section {
 }
 
 h2 {
-  color: #1f4e79;
+  color: #127fb1;
 }
 
 .card-grid {
@@ -79,7 +75,7 @@ h2 {
 .card {
   border-radius: 8px;
   padding: 20px;
-  background: #1f4e79;
+  background: #3ec2ff;
   box-shadow: 0 2px 8px rgba(31, 78, 121, 0.1);
   transition: all 0.3s ease;
   color: #ffffff;
@@ -87,13 +83,13 @@ h2 {
 .card:hover {
   box-shadow: 0 6px 16px rgba(31, 78, 121, 0.2);
   transform: translateY(-4px);
-  border-color: #1f4e79;
+  border-color: #127fb1;
   background: #ffffff;
-  color: #1f4e79;
+  color: #127fb1;
 }
 
 .card a {
-  color: #1f4e79;
+  color: #127fb1;
   text-decoration: none;
   font-weight: bold;
 }
@@ -106,7 +102,7 @@ h2 {
 
 
 footer {
-  background: #1f4e79;
+  background: #127fb1;
   color: white;
   text-align: center;
   padding: 15px;
